@@ -9,7 +9,6 @@
 int main(int __attribute__((unused))argc, char **argv, char **env)
 {
 	int status_output = 0, read = 1, counter = 0;
-
 	while (read)
 	{
 		char *command_line = NULL, **argm = NULL;
