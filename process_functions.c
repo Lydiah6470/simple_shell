@@ -10,6 +10,7 @@ char *check_path(char *argm)
 		return (argm);
 	return (NULL);
 }
+
 /**
  * execute_command - check if argumnt is already a path
  * @argm: entry argument
